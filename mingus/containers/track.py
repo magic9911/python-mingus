@@ -62,9 +62,9 @@ class Track(object):
         """
         if self.instrument != None:
             if not self.instrument.can_play_notes(note):
-                raise InstrumentRangeError, \
+                raise (InstrumentRangeError, \
                     "Note '%s' is not in range of the instrument (%s)" % (note,
-                        self.instrument)
+                        self.instrument))
         if duration == None:
             duration = 4
 

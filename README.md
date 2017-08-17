@@ -1,4 +1,4 @@
-mingus
+mingus For python 3.5.* on windows
 ======
 
 mingus is a package for Python used by programmers, musicians, composers
